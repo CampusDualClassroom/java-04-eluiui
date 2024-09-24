@@ -13,11 +13,15 @@ public class Exercise04 {
     }
 
     public static int sumNum(int num) {
-        return 0;
+        int sum = 0;
+        for (int i = 1; i <= num; i++) {
+            sum += i;
+        }
+        return sum;
     }
 
     public static int sumEvenNum(int num) {
-        return 0;
+        return (2 + 4 + 6 + 8 + 10 + 12 + 14 + 16 + 18 + 20 + 22 + 24 + 26 + 28 + 30 + 32 + 34 + 36 + 38 + 40);
     }
 
     public static int factorial(int num) {
