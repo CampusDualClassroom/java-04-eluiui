@@ -15,13 +15,17 @@ public class Exercise04 {
     public static int sumNum(int num) {
         int sum = 0;
         for (int i = 1; i <= num; i++) {
-            sum += i;
+            sum = i+sum;
         }
         return sum;
     }
 
     public static int sumEvenNum(int num) {
-        return (2 + 4 + 6 + 8 + 10 + 12 + 14 + 16 + 18 + 20 + 22 + 24 + 26 + 28 + 30 + 32 + 34 + 36 + 38 + 40);
+        int sum = 0;
+        for (int i = 2; i <= num * 2; i += 2) {
+            sum = i+sum;
+        }
+        return sum;
     }
 
     public static int factorial(int num) {
