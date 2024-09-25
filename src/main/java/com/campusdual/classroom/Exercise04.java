@@ -17,6 +17,7 @@ public class Exercise04 {
         for (int i = 1; i <= num; i++) {
             sum = i+sum;
         }
+        
         return sum;
     }
 
